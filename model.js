@@ -7,7 +7,7 @@ export const model = [
 ]
 
 // export const model = [
-//   { title: 'ToDoApp' },
+//   { title: 'ToDoApp' }, // одно и тоже, что и plan_title и plans --> сократи кол-во полей
 //   { plan_title: 'Go to learning JS' },
 //   { plan_id: '1' },
 //   { plans: 'Watch React.js course' },
