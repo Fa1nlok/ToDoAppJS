@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
   <link rel="shortcut icon" href="https://img.freepik.com/free-vector/modern-weekly-schedule-template-with-flat-design_23-2147942250.jpg" type="image/x-icon">
   <link rel="stylesheet" href="./styles/style.css">
   <title>ToDoApp</title>
@@ -10,8 +11,15 @@
 <body>
 <div id="app" class="container-fluid">
   <div id="panel" class="bg-light sidebar"></div>
-  <div id="site" class="content"></div>
+  <div id="content" class="content"> </div>
+  <input placeholder="Введите название задачи" type="text" id="input" />
+  <button onclick="addTodo()">Создать Таску</button> 
 </div>
-<script src="index.js"></script>
+<script type = "module" src="index.js"></script>
 </body>
 </html>
+
+<!-- TODO перемещение выполненных таск в отдельную вкладку с возможностью восстановлению  -->
+<!-- TODO Реализовать удаление/выполнение задач  -->
+<!-- TODO Стилизовать html  -->
+<!-- TODO Реализовать авторизацию с использованием API  с генерацией картинки  -->  
