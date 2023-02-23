@@ -9,13 +9,19 @@
   <title>ToDoApp</title>
 </head>
 <body>
+  <div> 
+    <div><h1>ToDoApp</h1><button> Log In</button></div>
+    <div id="auth"></div>
+  
+</div>
+ 
 <div id="app" class="container-fluid">
   <div id="panel" class="bg-light sidebar"></div>
   <div id="content" class="content"> </div>
-  <input placeholder="Введите название задачи" type="text" id="input" />
-  <button onclick="addTodo()">Создать Таску</button> 
+  <input placeholder="Enter Taks" type="text" id="input" />
+  <button id="addTodo" onclick="addTodo()">Create Task</button>
 </div>
-<script type = "module" src="index.js"></script>
+<script src="./index.js"></script>
 </body>
 </html>
 
