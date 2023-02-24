@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
+.input-wrapper {
+  display: flex;
+  text-align: left;
+  width: 850.58px;
+  height: 68.56px;
+}
+
+#arrow {
+  margin-top: 12px;
+  width: 50px;
+  height: 35px;
+}
+
+#addTodo {
+  margin-left: -2px;
+  width: 110.43px;
+  height: 100%;
+  background: rgba(90, 255, 49, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  border: none;
+}
+
+#input {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 40px;
+  width: 70%;
+  height: 100%;
+  font-family: "Monda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 59px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.7);
+  background: #25273c;
+  outline: none;
+  border: none;
+}
